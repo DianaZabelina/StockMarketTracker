@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<TextView
+android:id="@+id/txtDelta"
+android:layout_width="100dp"
+android:layout_height="wrap_content"
+android:layout_marginStart="8dp"
+android:layout_marginLeft="8dp"
+android:layout_marginTop="4dp"
+android:textColor="#1671E1"
+app:layout_constraintStart_toEndOf="@+id/txtPrice"
+app:layout_constraintTop_toTopOf="parent" />
+
+<ImageView
+android:id="@+id/imgPicture"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:layout_marginStart="4dp"
+android:layout_marginLeft="4dp"
+android:layout_marginTop="4dp"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+android:id="@+id/txtTicker"
+android:layout_width="80dp"
+android:layout_height="19dp"
+android:layout_marginStart="80dp"
+android:layout_marginLeft="80dp"
+android:layout_marginTop="4dp"
+android:textColor="#4FCF40"
+android:visibility="visible"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+tools:visibility="visible" />
+
+<TextView
+android:id="@+id/txtName"
+android:layout_width="300dp"
+android:layout_height="wrap_content"
+android:layout_marginStart="80dp"
+android:layout_marginLeft="80dp"
+android:layout_marginTop="30dp"
+android:textColor="#2053B8"
+android:visibility="visible"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+tools:visibility="visible" />
+
+<TextView
+android:id="@+id/txtPrice"
+android:layout_width="100dp"
+android:layout_height="wrap_content"
+android:layout_marginStart="8dp"
+android:layout_marginLeft="8dp"
+android:layout_marginTop="4dp"
+android:textColor="#F10528"
+app:layout_constraintStart_toEndOf="@+id/txtTicker"
+app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
